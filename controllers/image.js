@@ -6,8 +6,7 @@ const app = new Clarifai.App({
 
 const handleApiCall = (req, res) => {
   app.models
-    // This part has been updated with the recent Clarifai changed. Used to be:
-    // .predict(Clarifai.FACE_DETECT_MODEL, req.body.input)
+    // This part has been updated with the recent Clarifai changed.
     .predict(Clarifai.FACE_DETECT_MODEL, req.body.input)
     .then(data => {
       res.json(data);
