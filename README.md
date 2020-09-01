@@ -1,4 +1,4 @@
-This project was created with ReactJS for front-end, Node.js/Express.js for backend and MongoDB for database.
+This project was created with ReactJS for front-end, Node.js/Express.js for backend and Postgresql for database.
 
 This is a web app where you can use a URL ending with .jpg/.png image and it will detect the face.
 
